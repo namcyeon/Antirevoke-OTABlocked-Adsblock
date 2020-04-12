@@ -14,6 +14,6 @@ function FindProxyForURL(url, host) {
       host = host.substring(index + 1);
     }
   }
-  if (shExpMatch(url, "https://demo6.wsas.vn")) { return "https://demo6.wsas.vn/nampham"; }
+  if (shExpMatch(url, "https://api.cercube.com/v2/user")) { return "https://demo5.wsas.vn/nampham/cercube/user.json"; }
   return DIRECT;
 }
