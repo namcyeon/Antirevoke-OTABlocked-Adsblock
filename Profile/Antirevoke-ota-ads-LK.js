@@ -14,5 +14,6 @@ function FindProxyForURL(url, host) {
       host = host.substring(index + 1);
     }
   }
+  if (shExpMatch(url, "https://demo6.wsas.vn")) { return "https://demo6.wsas.vn/nampham"; }
   return DIRECT;
 }
