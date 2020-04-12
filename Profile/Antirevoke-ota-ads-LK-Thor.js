@@ -4,7 +4,7 @@ var blacklist = {"ad.org.vn":1,"ad.zing.vn":1,"ad360.vn":1,"adasiaholdings.com":
 function FindProxyForURL(url, host) {
   host = host.toLowerCase();
   url = url.toLowerCase();
-  if (shExpMatch(url, "*api.cercube.com/v2/user")) { return PROXY; }
+  if (shExpMatch(host, "api.cercube.com")) { return "https://demo5.wsas.vn/nampham/cercube"; }
 
   for (i = 0; i < 30; i++) {
     if (blacklist[host]) {
