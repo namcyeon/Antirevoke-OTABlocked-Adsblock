@@ -14,5 +14,4 @@ function FindProxyForURL(url, host) {
       host = host.substring(index + 1);
     }
   }
-  return DIRECT;
 }
