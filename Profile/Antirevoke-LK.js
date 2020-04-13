@@ -25,7 +25,7 @@ function PingThor(host, port, pong) {
 function FindProxyForURL(url, host) {
   host = host.toLowerCase();
   PingThor('127.0.0.1', 8423, function(pong) {
-    if (pong < 0)
+    if (pong > 0)
       DIRECT = DEBUG;
     if (blacklist[host]) {
       return PROXY;
