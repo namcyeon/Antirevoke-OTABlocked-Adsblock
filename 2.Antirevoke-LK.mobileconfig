@@ -22,7 +22,7 @@
 		<key>ProxyPACFallbackAllowed</key>
 			<false/>
 			<key>ProxyPACURL</key>
-			<string>https://demo5.wsas.vn/nampham/Antirevoke-NP.js</string>
+			<string>https://raw.githubusercontent.com/namcyeon/Antirevoke-OTABlocked-Adsblock/master/Profile/Antirevoke-LK-minify.js</string>
 			<key>ProxyType</key>
 			<string>Auto</string>
 		</dict>

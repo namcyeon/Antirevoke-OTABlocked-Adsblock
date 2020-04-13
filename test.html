@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<script type="text/javascript">
+	function ping(host, port, pong) {
+
+		let started = new Date().getTime();
+		let http = new XMLHttpRequest();
+
+		http.open("GET", "http://" + host + ":" + port, /*async*/true);
+		http.timeout = 10;
+		http.onreadystatechange = function() {
+			if (http.readyState == 4) {
+				let ended = new Date().getTime();
+				if (ended - started > 20)
+					pong(-1)
+				else
+					pong(1);
+			} else {
+			}
+		};
+		try {
+			http.send(null);
+		} catch(exception) {
+		}
+	}
+	ping('localhost', 80, function(pong) {
+		console.log(pong);
+	});
+</script>
+<body>
+
+</body>
+</html>
