@@ -8,7 +8,7 @@
 			<key>PayloadDescription</key>
 			<string>Global HTTP Proxy</string>
 			<key>PayloadDisplayName</key>
-			<string>Antirevoke NP Edit</string>
+			<string>Antirevoke NP 1.0.0</string>
 			<key>PayloadIdentifier</key>
 <string>com.apple.proxy.http.global.6F6F3A4B-6E3A-4B20-B815-7BC2757C9959</string>
 			<key>PayloadType</key>
@@ -22,13 +22,13 @@
 		<key>ProxyPACFallbackAllowed</key>
 			<false/>
 			<key>ProxyPACURL</key>
-			<string>https://raw.githubusercontent.com/namcyeon/Antirevoke-OTABlocked-Adsblock/master/Profile/Antirevoke-LK-minify.js</string>
+			<string>https://raw.githubusercontent.com/namcyeon/Antirevoke-OTABlocked-Adsblock/master/Profile/Antirevoke-ota-LK.js</string>
 			<key>ProxyType</key>
 			<string>Auto</string>
 		</dict>
 	</array>
 	<key>PayloadDisplayName</key>
-	<string>Antirevoke NP Edit</string>
+	<string>Antirevoke NP 1.0.0</string>
 	<key>PayloadIdentifier</key>
 	<string>michaels-imac.local.CECF75B7-75A4-4FC8-8B9B-1DFEDC31D3D9</string>
 	<key>PayloadRemovalDisallowed</key>
